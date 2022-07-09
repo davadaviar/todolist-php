@@ -1,0 +1,18 @@
+<?php
+
+require_once "../View/ViewAddTodoList.php";
+require_once "../BusinessLogic/AddTodoList.php";
+require_once "../BusinessLogic/ShowTodoList.php";
+
+addTodoList("Dava");
+addTodoList("Daviar");
+addTodoList("Saputra");
+
+viewAddTodoList();
+
+showTodoList();
+
+
+viewAddTodoList();
+
+showTodoList();
